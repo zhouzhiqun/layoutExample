@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-DemoApp/Pods-DemoApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FCKTable/FCKTable.framework
+${BUILT_PRODUCTS_DIR}/FCKTableView/FCKTableView.framework
+${PODS_ROOT}/LookinServer/LookinServer.framework

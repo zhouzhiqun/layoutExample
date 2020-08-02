@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74EE83670ABC31CDD77B49DA732104E8 /* Build configuration list for PBXAggregateTarget "LookinServer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LookinServer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1F4397D1B4F5CD8CBA4E49EBC69608A1 /* DeleteMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DA85BA853898C6EBE75D52E879D29145 /* DeleteMe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2E3D6AFE62DC7C6E11EAD5140947E32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC30E922422C0133CACCE30D3194DB /* Assets.xcassets */; };
+		32B7F01569C456571107BA92F5C44087 /* FCKTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19654F55BD2685CCFDFFB412FCD502B5 /* FCKTable-dummy.m */; };
+		3CACA69B6AC58BCC73D3DF417AA69576 /* Pods-DemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA280F3834371F85C5CD4E52FADA4B8 /* FCKTable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4452EDE9FEF00E60841CBB1D077FD836 /* FCKTable.bundle */; };
+		507E0E33A1389AB835739A5DE7ABD858 /* FCKTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAF4059D10F3F34AC34B43D784BE4CC /* FCKTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FD8FA8FB081407844EBE95A962ACAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		88B2923BB24F86D6CF05A707768F2711 /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */; };
+		904FE9A1B4A6CA85CF055BDB95B24BEC /* FCKTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8786B6774C8D6A8AE972A4D87641A /* FCKTableView-dummy.m */; };
+		9D62FD9FB0C6B2A28CB99F40FDC7EB55 /* FCKTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 019C9C4204CF5581C3D4586CFF72C8CC /* FCKTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD343EFF418320367F34E1C24C3A7722 /* FCKTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7265A3B175B7EABA9CF516732F1C21 /* FCKTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA633E8391C20CA916B4B1587121A9EB /* FCKTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 569EF0421BCDC1D3BACEBC8B1BBA9187 /* FCKTableView.bundle */; };
+		BB0F9DE9FAFED8FFF51E225350D0EB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D67FCFCC47109D70B04CDD8255B69D62 /* FCKTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C91DA059345640E10122980E9AA8BD8 /* FCKTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBE875ED52EEB3300A4E33BDA2F7330F /* DeleteMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CD2895F7EE5C4E7178384BA1BD1250 /* DeleteMe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F32A3E07FDF8D37D63F9A20E3CF9D381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FF22E7B39411EC222888B55E2ECF8258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7293AF6495AD70B4B990D6B91AF8D853 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E821B4DE8B6C468825B1AFE076DE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA426CB5B368867E521733759F4E052E;
+			remoteInfo = "FCKTableView-FCKTableView";
+		};
+		3DC95BD7AA96B259D879A27D96E032B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C9F057C5A91F2DC1F4FC7E77AD32BE9;
+			remoteInfo = FCKTable;
+		};
+		3F5382B0960D1CD6A4DA78552A6A471A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638FEAAFC575BB76BC6AC055CDDA3506;
+			remoteInfo = LookinServer;
+		};
+		76B1E5EF8E458EF65EB335786C2BEF23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BACC60D3BCF44C29ECAF4446F7EBED49;
+			remoteInfo = "FCKTable-FCKTable";
+		};
+		C90587DD4A42FC22C91E5E1ABACAFA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9B591565B8AE0A6F884CE79A6CE808;
+			remoteInfo = FCKTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019C9C4204CF5581C3D4586CFF72C8CC /* FCKTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCKTableView-umbrella.h"; sourceTree = "<group>"; };
+		156A1ADF473A21D62E96D1C80C740268 /* FCKTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCKTableView-prefix.pch"; sourceTree = "<group>"; };
+		19654F55BD2685CCFDFFB412FCD502B5 /* FCKTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCKTable-dummy.m"; sourceTree = "<group>"; };
+		22B064629CAE40CF72499DD6D67646C1 /* Pods-DemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28529B28CF30B07E89105AFA368930E5 /* LookinServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.release.xcconfig; sourceTree = "<group>"; };
+		31100519F22A1B0DC7A15361B062F1D3 /* FCKTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCKTable.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AD9AD3D43E55FA88A7D92A98AB06C81 /* FCKTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCKTableView.debug.xcconfig; sourceTree = "<group>"; };
+		3BD3503A5C6357820C0711D09689D2FE /* FCKTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCKTable.framework; path = FCKTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEC30E922422C0133CACCE30D3194DB /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		4210686E471C0D2A01E22F6FD861B3A8 /* FCKTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCKTable.debug.xcconfig; sourceTree = "<group>"; };
+		4452EDE9FEF00E60841CBB1D077FD836 /* FCKTable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCKTable.bundle; path = "FCKTable-FCKTable.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4779FFECF807D1DEFB330F4CB59E52EA /* ResourceBundle-FCKTableView-FCKTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCKTableView-FCKTableView-Info.plist"; sourceTree = "<group>"; };
+		4C5E9169C9DDC3F404C662F36DE9D98F /* FCKTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCKTableView-Info.plist"; sourceTree = "<group>"; };
+		4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoApp.framework; path = "Pods-DemoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		569EF0421BCDC1D3BACEBC8B1BBA9187 /* FCKTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCKTableView.bundle; path = "FCKTableView-FCKTableView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F7736E91647FB1D500612961266F46 /* Pods-DemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoApp.modulemap"; sourceTree = "<group>"; };
+		699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoApp-umbrella.h"; sourceTree = "<group>"; };
+		6EB8786B6774C8D6A8AE972A4D87641A /* FCKTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCKTableView-dummy.m"; sourceTree = "<group>"; };
+		7293AF6495AD70B4B990D6B91AF8D853 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		76DA85633FFE90988AEA5801C401EF90 /* FCKTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCKTable-prefix.pch"; sourceTree = "<group>"; };
+		77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoApp-dummy.m"; sourceTree = "<group>"; };
+		804CC1D9C7164182CFEAB80C678C08AC /* FCKTable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCKTable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89388AF44A4AA72A94996CEE32BD3D7D /* FCKTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCKTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93ECCA68F45D20432FDCF4A12FDB206E /* LookinServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LookinServer.framework; sourceTree = "<group>"; };
+		946B1D3001B616EC334839A46A26A4D3 /* Pods-DemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		9C91DA059345640E10122980E9AA8BD8 /* FCKTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCKTableView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		A9AA4E84E3A26E6707594129B4768D24 /* LookinServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.debug.xcconfig; sourceTree = "<group>"; };
+		B80EFF5722EECA1F997153CF83C468F6 /* FCKTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCKTableView.framework; path = FCKTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA7265A3B175B7EABA9CF516732F1C21 /* FCKTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCKTable-umbrella.h"; sourceTree = "<group>"; };
+		BB9020D14832F3060956648DBFFF4DAF /* FCKTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCKTableView.release.xcconfig; sourceTree = "<group>"; };
+		C0D3CBAE60B8AE5AB98F15744E56AD59 /* ResourceBundle-FCKTable-FCKTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCKTable-FCKTable-Info.plist"; sourceTree = "<group>"; };
+		C3CB5CC796F6A53577ADB97FD22E398D /* Pods-DemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6CD2895F7EE5C4E7178384BA1BD1250 /* DeleteMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeleteMe.m; path = Classes/DeleteMe.m; sourceTree = "<group>"; };
+		CEAF4059D10F3F34AC34B43D784BE4CC /* FCKTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCKTable.h; sourceTree = "<group>"; };
+		D23857E7E35A4C361B6E167E99F11D5F /* FCKTable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCKTable-Info.plist"; sourceTree = "<group>"; };
+		DA85BA853898C6EBE75D52E879D29145 /* DeleteMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeleteMe.m; path = Classes/DeleteMe.m; sourceTree = "<group>"; };
+		E29370E385DA63D6CAFB58EECFC6BFBB /* Pods-DemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-Info.plist"; sourceTree = "<group>"; };
+		E33386DD129A6C2200A93465B8E66E5C /* FCKTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCKTableView.modulemap; sourceTree = "<group>"; };
+		E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EB936DB1B2AADEEFA4AC0D293DF0A77C /* FCKTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCKTable.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B1CC084BA969546925207BAC341DA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD8FA8FB081407844EBE95A962ACAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD596628245F0649ABF759F58215888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A3E07FDF8D37D63F9A20E3CF9D381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905D52E47CF8824DE0BCF63027D5E011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B356821BB37C59A52AD7C493B55FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0F9DE9FAFED8FFF51E225350D0EB71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DCA41EC3193603E06474B89CF39E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DFA35A81FD1587878C698186F034C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				89388AF44A4AA72A94996CEE32BD3D7D /* FCKTableView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1308C1B85EF5A6AE05A631B86012F6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4452EDE9FEF00E60841CBB1D077FD836 /* FCKTable.bundle */,
+				3BD3503A5C6357820C0711D09689D2FE /* FCKTable.framework */,
+				569EF0421BCDC1D3BACEBC8B1BBA9187 /* FCKTableView.bundle */,
+				B80EFF5722EECA1F997153CF83C468F6 /* FCKTableView.framework */,
+				4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C48289999A76B65541F708B97D2A11A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				804CC1D9C7164182CFEAB80C678C08AC /* FCKTable.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		274AA5DEEA1BDFB34CDFE0CE87982E59 /* FCKTable */ = {
+			isa = PBXGroup;
+			children = (
+				DA85BA853898C6EBE75D52E879D29145 /* DeleteMe.m */,
+				1C48289999A76B65541F708B97D2A11A /* Pod */,
+				9F207633F3B2EE064899BBCD7FD59813 /* PublicHeader */,
+				28331286C7A38118E8365034151AFEC5 /* Resources */,
+				58972F7DAFFEE2A8BAF055426E125EE7 /* Support Files */,
+			);
+			name = FCKTable;
+			path = FCKTable;
+			sourceTree = "<group>";
+		};
+		28331286C7A38118E8365034151AFEC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7293AF6495AD70B4B990D6B91AF8D853 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2AB58C7D1BF01380B631C53DC7FA528F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5982A85A59A9FB9D5DAFADBB906E2BF /* LookinServer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C07352F72EC7433A430E96413060A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93ECCA68F45D20432FDCF4A12FDB206E /* LookinServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF784A43AD76A09C23D9B1593A53CFD /* FCKTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C6CD2895F7EE5C4E7178384BA1BD1250 /* DeleteMe.m */,
+				10DFA35A81FD1587878C698186F034C6 /* Pod */,
+				80E37CCA41D0390E749261EE68AF162C /* PublicHeader */,
+				9413516F3C036DAEC3D2E9AB120AD51B /* Resources */,
+				B09D283DFFAB753BB07A7EA3FD7E01FF /* Support Files */,
+			);
+			name = FCKTableView;
+			path = FCKTableView;
+			sourceTree = "<group>";
+		};
+		463911A867E997426DF8B9ED607A3F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA4E84E3A26E6707594129B4768D24 /* LookinServer.debug.xcconfig */,
+				28529B28CF30B07E89105AFA368930E5 /* LookinServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LookinServer";
+			sourceTree = "<group>";
+		};
+		4DF636EA3CB042B100D265CBAEE9CA83 /* Pods-DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				64F7736E91647FB1D500612961266F46 /* Pods-DemoApp.modulemap */,
+				22B064629CAE40CF72499DD6D67646C1 /* Pods-DemoApp-acknowledgements.markdown */,
+				C3CB5CC796F6A53577ADB97FD22E398D /* Pods-DemoApp-acknowledgements.plist */,
+				77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */,
+				946B1D3001B616EC334839A46A26A4D3 /* Pods-DemoApp-frameworks.sh */,
+				E29370E385DA63D6CAFB58EECFC6BFBB /* Pods-DemoApp-Info.plist */,
+				699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */,
+				E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */,
+				A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */,
+			);
+			name = "Pods-DemoApp";
+			path = "Target Support Files/Pods-DemoApp";
+			sourceTree = "<group>";
+		};
+		58972F7DAFFEE2A8BAF055426E125EE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB936DB1B2AADEEFA4AC0D293DF0A77C /* FCKTable.modulemap */,
+				19654F55BD2685CCFDFFB412FCD502B5 /* FCKTable-dummy.m */,
+				D23857E7E35A4C361B6E167E99F11D5F /* FCKTable-Info.plist */,
+				76DA85633FFE90988AEA5801C401EF90 /* FCKTable-prefix.pch */,
+				BA7265A3B175B7EABA9CF516732F1C21 /* FCKTable-umbrella.h */,
+				4210686E471C0D2A01E22F6FD861B3A8 /* FCKTable.debug.xcconfig */,
+				31100519F22A1B0DC7A15361B062F1D3 /* FCKTable.release.xcconfig */,
+				C0D3CBAE60B8AE5AB98F15744E56AD59 /* ResourceBundle-FCKTable-FCKTable-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCKTable";
+			sourceTree = "<group>";
+		};
+		8052B4D2AA9CC356C4E377CCE93FC8F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274AA5DEEA1BDFB34CDFE0CE87982E59 /* FCKTable */,
+				2CF784A43AD76A09C23D9B1593A53CFD /* FCKTableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80E37CCA41D0390E749261EE68AF162C /* PublicHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9C91DA059345640E10122980E9AA8BD8 /* FCKTableView.h */,
+			);
+			name = PublicHeader;
+			path = Classes/PublicHeader;
+			sourceTree = "<group>";
+		};
+		9413516F3C036DAEC3D2E9AB120AD51B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC30E922422C0133CACCE30D3194DB /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F207633F3B2EE064899BBCD7FD59813 /* PublicHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF4059D10F3F34AC34B43D784BE4CC /* FCKTable.h */,
+			);
+			name = PublicHeader;
+			path = Classes/PublicHeader;
+			sourceTree = "<group>";
+		};
+		B09D283DFFAB753BB07A7EA3FD7E01FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E33386DD129A6C2200A93465B8E66E5C /* FCKTableView.modulemap */,
+				6EB8786B6774C8D6A8AE972A4D87641A /* FCKTableView-dummy.m */,
+				4C5E9169C9DDC3F404C662F36DE9D98F /* FCKTableView-Info.plist */,
+				156A1ADF473A21D62E96D1C80C740268 /* FCKTableView-prefix.pch */,
+				019C9C4204CF5581C3D4586CFF72C8CC /* FCKTableView-umbrella.h */,
+				3AD9AD3D43E55FA88A7D92A98AB06C81 /* FCKTableView.debug.xcconfig */,
+				BB9020D14832F3060956648DBFFF4DAF /* FCKTableView.release.xcconfig */,
+				4779FFECF807D1DEFB330F4CB59E52EA /* ResourceBundle-FCKTableView-FCKTableView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCKTableView";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8925A89FCC6A7A7E3FC80329E7EED75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF636EA3CB042B100D265CBAEE9CA83 /* Pods-DemoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8052B4D2AA9CC356C4E377CCE93FC8F3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2AB58C7D1BF01380B631C53DC7FA528F /* Pods */,
+				1308C1B85EF5A6AE05A631B86012F6D9 /* Products */,
+				C8925A89FCC6A7A7E3FC80329E7EED75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5982A85A59A9FB9D5DAFADBB906E2BF /* LookinServer */ = {
+			isa = PBXGroup;
+			children = (
+				2C07352F72EC7433A430E96413060A40 /* Frameworks */,
+				463911A867E997426DF8B9ED607A3F98 /* Support Files */,
+			);
+			name = LookinServer;
+			path = LookinServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DD02CE6059FA428A2C4D001ABCD2D86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CACA69B6AC58BCC73D3DF417AA69576 /* Pods-DemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DEBC3D2A0E72094EB321C4FCD0A172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D62FD9FB0C6B2A28CB99F40FDC7EB55 /* FCKTableView-umbrella.h in Headers */,
+				D67FCFCC47109D70B04CDD8255B69D62 /* FCKTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54403CECDDB8F730B76D15BF681A5F5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD343EFF418320367F34E1C24C3A7722 /* FCKTable-umbrella.h in Headers */,
+				507E0E33A1389AB835739A5DE7ABD858 /* FCKTable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C9F057C5A91F2DC1F4FC7E77AD32BE9 /* FCKTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0AC8F0C0FFB4F7FC2342A095CA6B25 /* Build configuration list for PBXNativeTarget "FCKTable" */;
+			buildPhases = (
+				54403CECDDB8F730B76D15BF681A5F5A /* Headers */,
+				19AC03A38E300E604CB527813C2CB58C /* Sources */,
+				4BD596628245F0649ABF759F58215888 /* Frameworks */,
+				2C03981BB9D5EBB5F2E1B96296BAE5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1F0DBBBB67FCFFCE4F78B14BE9A3B41 /* PBXTargetDependency */,
+			);
+			name = FCKTable;
+			productName = FCKTable;
+			productReference = 3BD3503A5C6357820C0711D09689D2FE /* FCKTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1104739B9FA0F07DD4CD4AA41EA4ED /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
+			buildPhases = (
+				2DD02CE6059FA428A2C4D001ABCD2D86 /* Headers */,
+				E1462C7DDF4D53D142411423A889FD90 /* Sources */,
+				4B1CC084BA969546925207BAC341DA80 /* Frameworks */,
+				98BAEBD00DC10F101E6575AA7F0AC243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3035E577637DABF358324167F642D40E /* PBXTargetDependency */,
+				B802CADF340255C295CA7D5AA317070E /* PBXTargetDependency */,
+				DADB09639CC84F1643EBB848B9AFC577 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoApp";
+			productName = "Pods-DemoApp";
+			productReference = 4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE9B591565B8AE0A6F884CE79A6CE808 /* FCKTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915FCD7876941D4613776951BAE3771 /* Build configuration list for PBXNativeTarget "FCKTableView" */;
+			buildPhases = (
+				31DEBC3D2A0E72094EB321C4FCD0A172 /* Headers */,
+				DB5BCB67821D07BD1537CF40C793AC27 /* Sources */,
+				A0B356821BB37C59A52AD7C493B55FCE /* Frameworks */,
+				43F2A3EA4DE1A6FBB129C61843E5B26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5866627C3A190A119EDF052DE12E0D03 /* PBXTargetDependency */,
+			);
+			name = FCKTableView;
+			productName = FCKTableView;
+			productReference = B80EFF5722EECA1F997153CF83C468F6 /* FCKTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BACC60D3BCF44C29ECAF4446F7EBED49 /* FCKTable-FCKTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6756D1810A61FBD98ED64EEF0181A072 /* Build configuration list for PBXNativeTarget "FCKTable-FCKTable" */;
+			buildPhases = (
+				2BBEEF63A8DE5749524BA6A9AB351652 /* Sources */,
+				E8DCA41EC3193603E06474B89CF39E42 /* Frameworks */,
+				C0271381831C8419D15636D5EA2AAE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCKTable-FCKTable";
+			productName = "FCKTable-FCKTable";
+			productReference = 4452EDE9FEF00E60841CBB1D077FD836 /* FCKTable.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FA426CB5B368867E521733759F4E052E /* FCKTableView-FCKTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8090D4B39878758CD907C5DF36ADBFB3 /* Build configuration list for PBXNativeTarget "FCKTableView-FCKTableView" */;
+			buildPhases = (
+				453BD6D554A39B50C9D34DED90D18A2F /* Sources */,
+				905D52E47CF8824DE0BCF63027D5E011 /* Frameworks */,
+				0EBE665C8DC1CD0C93491451BDAB4F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCKTableView-FCKTableView";
+			productName = "FCKTableView-FCKTableView";
+			productReference = 569EF0421BCDC1D3BACEBC8B1BBA9187 /* FCKTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1308C1B85EF5A6AE05A631B86012F6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C9F057C5A91F2DC1F4FC7E77AD32BE9 /* FCKTable */,
+				BACC60D3BCF44C29ECAF4446F7EBED49 /* FCKTable-FCKTable */,
+				AE9B591565B8AE0A6F884CE79A6CE808 /* FCKTableView */,
+				FA426CB5B368867E521733759F4E052E /* FCKTableView-FCKTableView */,
+				638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */,
+				1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EBE665C8DC1CD0C93491451BDAB4F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3D6AFE62DC7C6E11EAD5140947E32D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C03981BB9D5EBB5F2E1B96296BAE5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA280F3834371F85C5CD4E52FADA4B8 /* FCKTable.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F2A3EA4DE1A6FBB129C61843E5B26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA633E8391C20CA916B4B1587121A9EB /* FCKTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BAEBD00DC10F101E6575AA7F0AC243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0271381831C8419D15636D5EA2AAE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22E7B39411EC222888B55E2ECF8258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AC03A38E300E604CB527813C2CB58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4397D1B4F5CD8CBA4E49EBC69608A1 /* DeleteMe.m in Sources */,
+				32B7F01569C456571107BA92F5C44087 /* FCKTable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBEEF63A8DE5749524BA6A9AB351652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		453BD6D554A39B50C9D34DED90D18A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5BCB67821D07BD1537CF40C793AC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE875ED52EEB3300A4E33BDA2F7330F /* DeleteMe.m in Sources */,
+				904FE9A1B4A6CA85CF055BDB95B24BEC /* FCKTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1462C7DDF4D53D142411423A889FD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B2923BB24F86D6CF05A707768F2711 /* Pods-DemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3035E577637DABF358324167F642D40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCKTable;
+			target = 0C9F057C5A91F2DC1F4FC7E77AD32BE9 /* FCKTable */;
+			targetProxy = 3DC95BD7AA96B259D879A27D96E032B8 /* PBXContainerItemProxy */;
+		};
+		5866627C3A190A119EDF052DE12E0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCKTableView-FCKTableView";
+			target = FA426CB5B368867E521733759F4E052E /* FCKTableView-FCKTableView */;
+			targetProxy = 07E821B4DE8B6C468825B1AFE076DE31 /* PBXContainerItemProxy */;
+		};
+		B802CADF340255C295CA7D5AA317070E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCKTableView;
+			target = AE9B591565B8AE0A6F884CE79A6CE808 /* FCKTableView */;
+			targetProxy = C90587DD4A42FC22C91E5E1ABACAFA82 /* PBXContainerItemProxy */;
+		};
+		DADB09639CC84F1643EBB848B9AFC577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServer;
+			target = 638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */;
+			targetProxy = 3F5382B0960D1CD6A4DA78552A6A471A /* PBXContainerItemProxy */;
+		};
+		E1F0DBBBB67FCFFCE4F78B14BE9A3B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCKTable-FCKTable";
+			target = BACC60D3BCF44C29ECAF4446F7EBED49 /* FCKTable-FCKTable */;
+			targetProxy = 76B1E5EF8E458EF65EB335786C2BEF23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AF084F87DAD61DC99F9722BB820DB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4210686E471C0D2A01E22F6FD861B3A8 /* FCKTable.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCKTable/FCKTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCKTable/FCKTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCKTable/FCKTable.modulemap";
+				PRODUCT_MODULE_NAME = FCKTable;
+				PRODUCT_NAME = FCKTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2236237C07DBAE57BD90961C9BDD3C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31100519F22A1B0DC7A15361B062F1D3 /* FCKTable.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCKTable/FCKTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCKTable/FCKTable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCKTable/FCKTable.modulemap";
+				PRODUCT_MODULE_NAME = FCKTable;
+				PRODUCT_NAME = FCKTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		286852C6C820768120CEAAF467100B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD9AD3D43E55FA88A7D92A98AB06C81 /* FCKTableView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCKTableView/FCKTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCKTableView/FCKTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCKTableView/FCKTableView.modulemap";
+				PRODUCT_MODULE_NAME = FCKTableView;
+				PRODUCT_NAME = FCKTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54523A1B030D46A6011237D8FA25F6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9020D14832F3060956648DBFFF4DAF /* FCKTableView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCKTableView/FCKTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCKTableView/FCKTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCKTableView/FCKTableView.modulemap";
+				PRODUCT_MODULE_NAME = FCKTableView;
+				PRODUCT_NAME = FCKTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6730493796C72F035E1A2AFCE52BB49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9AA4E84E3A26E6707594129B4768D24 /* LookinServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FDE33C2495F8DF0BC11ABAE99AD8105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD9AD3D43E55FA88A7D92A98AB06C81 /* FCKTableView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCKTableView";
+				IBSC_MODULE = FCKTableView;
+				INFOPLIST_FILE = "Target Support Files/FCKTableView/ResourceBundle-FCKTableView-FCKTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCKTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F885F052E906E876DDD06206091F29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28529B28CF30B07E89105AFA368930E5 /* LookinServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4171B11A9FF0CC4196F7991214AF3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4210686E471C0D2A01E22F6FD861B3A8 /* FCKTable.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCKTable";
+				IBSC_MODULE = FCKTable;
+				INFOPLIST_FILE = "Target Support Files/FCKTable/ResourceBundle-FCKTable-FCKTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCKTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C260633F62492CCA7D8ABD0E944A9A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F264E0FB244C31EB33582E19826A859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31100519F22A1B0DC7A15361B062F1D3 /* FCKTable.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCKTable";
+				IBSC_MODULE = FCKTable;
+				INFOPLIST_FILE = "Target Support Files/FCKTable/ResourceBundle-FCKTable-FCKTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCKTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F5C4823FDDA0310ACC43E7C4CAAFED79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB152633F038585A1830984406F9920E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9020D14832F3060956648DBFFF4DAF /* FCKTableView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCKTableView";
+				IBSC_MODULE = FCKTableView;
+				INFOPLIST_FILE = "Target Support Files/FCKTableView/ResourceBundle-FCKTableView-FCKTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = FCKTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6756D1810A61FBD98ED64EEF0181A072 /* Build configuration list for PBXNativeTarget "FCKTable-FCKTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4171B11A9FF0CC4196F7991214AF3E1 /* Debug */,
+				F264E0FB244C31EB33582E19826A859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EE83670ABC31CDD77B49DA732104E8 /* Build configuration list for PBXAggregateTarget "LookinServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6730493796C72F035E1A2AFCE52BB49C /* Debug */,
+				7F885F052E906E876DDD06206091F29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1104739B9FA0F07DD4CD4AA41EA4ED /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C4823FDDA0310ACC43E7C4CAAFED79 /* Debug */,
+				C260633F62492CCA7D8ABD0E944A9A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8090D4B39878758CD907C5DF36ADBFB3 /* Build configuration list for PBXNativeTarget "FCKTableView-FCKTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDE33C2495F8DF0BC11ABAE99AD8105 /* Debug */,
+				FB152633F038585A1830984406F9920E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B915FCD7876941D4613776951BAE3771 /* Build configuration list for PBXNativeTarget "FCKTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286852C6C820768120CEAAF467100B47 /* Debug */,
+				54523A1B030D46A6011237D8FA25F6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0AC8F0C0FFB4F7FC2342A095CA6B25 /* Build configuration list for PBXNativeTarget "FCKTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF084F87DAD61DC99F9722BB820DB7C /* Debug */,
+				2236237C07DBAE57BD90961C9BDD3C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

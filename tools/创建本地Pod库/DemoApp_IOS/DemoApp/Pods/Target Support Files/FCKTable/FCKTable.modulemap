@@ -1,0 +1,6 @@
+framework module FCKTable {
+  umbrella header "FCKTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

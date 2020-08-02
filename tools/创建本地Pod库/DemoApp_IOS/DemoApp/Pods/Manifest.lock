@@ -1,0 +1,28 @@
+PODS:
+  - FCKTable (0.0.1)
+  - FCKTableView (0.0.1)
+  - LookinServer (1.0.0)
+
+DEPENDENCIES:
+  - FCKTable (from `Pods/FCKTable`)
+  - FCKTableView (from `Pods/FCKTableView`)
+  - LookinServer
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LookinServer
+
+EXTERNAL SOURCES:
+  FCKTable:
+    :path: Pods/FCKTable
+  FCKTableView:
+    :path: Pods/FCKTableView
+
+SPEC CHECKSUMS:
+  FCKTable: f142b1058c61bab555ee7356d2be3d234454f0bc
+  FCKTableView: dc2e44433b9573f2d9887562f7a1a049e2da336f
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+
+PODFILE CHECKSUM: c5818ebea154c775b61872a29f2b80ceb548f226
+
+COCOAPODS: 1.9.1
